@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 44875022}
   m_Layer: 9
   m_Name: FirePoint
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213,15 +213,15 @@ MonoBehaviour:
   anim: {fileID: 420714939}
   health: 150
   deathSplatters:
-  - {fileID: 3574719156672228713, guid: 515fd5daf0889fd4a88198c4a417726e, type: 3}
-  - {fileID: 9201243198082494300, guid: aee43045a4cb5bd409ef887f04572a3e, type: 3}
-  - {fileID: 7873381660836070592, guid: 2247118727ce73842a223f046cd0516e, type: 3}
-  - {fileID: 1019234320101379743, guid: 1278db19fd35cdc4db19a1dbd4ccbd9a, type: 3}
-  hitEffect: {fileID: 6290389898700104498, guid: 84850fc7a22dcae4babc0e1b6d92b18d, type: 3}
+  - {fileID: 6499181343237595560, guid: 4751d01c69f283a43b39c6a511cde6bc, type: 3}
+  - {fileID: 5337798462805114742, guid: b6ea5973bf5db4e4e8ef214fdeac8a6a, type: 3}
+  - {fileID: 7941640278975221963, guid: 5e203649fd151fd4eb5e7f7904d44e34, type: 3}
+  - {fileID: 2483334212076764985, guid: 8a3ed90de85f4974c802f8418fdfa0a7, type: 3}
+  hitEffect: {fileID: 6290389898700104498, guid: 42d9bf8a0438e654886e6e87335fa04f, type: 3}
   shouldShoot: 1
   bullet: {fileID: 6973700749983706209, guid: c8888699b77cd7741af1d934fcdb965c, type: 3}
   firePoint: {fileID: 44875022}
-  fireRate: 0.1
+  fireRate: 1
   shootRange: 9
   theBody: {fileID: 2043029347}
 --- !u!95 &420714939

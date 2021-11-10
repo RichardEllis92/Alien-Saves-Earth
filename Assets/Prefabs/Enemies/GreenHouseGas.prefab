@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4077751056235799120}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Firepoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 4077751057188624711}
   - component: {fileID: 4077751057188624710}
   - component: {fileID: 4077751057188624709}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: GreenHouseGas
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4077751057832072334}
   - component: {fileID: 4077751057832072335}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: LeftEyeLid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4077751057939963438}
   - component: {fileID: 4077751057939963439}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: RightEyeLid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 4077751057960575449}
   - component: {fileID: 4077751057960575451}
   - component: {fileID: 4077751057960575450}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}

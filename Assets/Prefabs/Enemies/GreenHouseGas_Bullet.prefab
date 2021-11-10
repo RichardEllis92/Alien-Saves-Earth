@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2321927300414869649}
   - component: {fileID: -651783164204738787}
   - component: {fileID: -2273798580248808150}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: GreenHouseGas_Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

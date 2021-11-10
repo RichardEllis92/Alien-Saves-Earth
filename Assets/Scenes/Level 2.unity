@@ -338,11 +338,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47f097c222738d34ab7981402d4ff9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneManage: {fileID: 0}
+  sceneManage: {fileID: 795407136}
   enemyPrefab: {fileID: 4077751057188624714, guid: 52781ac46d71878488c07993f757b70f, type: 3}
   hazmatEnemyPrefab: {fileID: 691123679625280176, guid: 29b275b707d26944a8203507763b4b5f, type: 3}
+  rubbishEnemyPrefab: []
+  trumpEnemyPrefab: {fileID: 0}
   generatePosition: {x: 0, y: 0, z: 8.5}
+  spawnLocation: {fileID: 0}
   enemyCount: 0
+  enemyRubbishCount: 0
   waveNumber: 1
 --- !u!4 &190070010
 Transform:
@@ -735,6 +739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795407135}
   - component: {fileID: 795407134}
+  - component: {fileID: 795407136}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -770,6 +775,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &795407136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795407133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac4f1c409627894dadc15a6f869c562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadNextScene: 0
 --- !u!1 &807819098
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,7 +1115,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 45a2ebefa76641c4a8bf5f2a14a67088, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ff13d73a62bd44d49a81f58cd75e0dad, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

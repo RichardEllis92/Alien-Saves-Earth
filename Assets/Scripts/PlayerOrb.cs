@@ -31,6 +31,10 @@ public class PlayerOrb : MonoBehaviour
         {
             other.GetComponent<Enemy>().DamageEnemy(damageToGive);
         }
+        if (other.tag == "EnemyRubbish")
+        {
+            other.GetComponent<EnemyRubbish>().DamageEnemy(damageToGive);
+        }
     }
 
     private void OnBecameInvisible()

@@ -35,6 +35,7 @@ public class Enemy : MonoBehaviour
     }
 
     // Update is called once per frame
+    //test
     void Update()
     {
         EnemyMove();
