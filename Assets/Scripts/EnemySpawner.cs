@@ -17,6 +17,9 @@ public class EnemySpawner : MonoBehaviour
     public int enemyRubbishCount;
     public int waveNumber = 1;
 
+    [SerializeField]
+    private Canvas levelCompleteCanvas;
+
     void Start()
     {
         SpawnEnemyWave(waveNumber);
@@ -35,8 +38,7 @@ public class EnemySpawner : MonoBehaviour
         {
             if (waveNumber == 5)
             {
-                waveNumber = 1;
-                sceneManage.LoadNextLevel();
+                levelCompleteCanvas.enabled = true;
             }
             else
             {
@@ -51,7 +53,7 @@ public class EnemySpawner : MonoBehaviour
             {
                 Debug.Log("Load next scene");
                 waveNumber = 1;
-                sceneManage.LoadNextLevel();
+                levelCompleteCanvas.enabled = true;
             }
             else
             {
@@ -64,7 +66,7 @@ public class EnemySpawner : MonoBehaviour
         {
             if (waveNumber == 1)
             {
-                Debug.Log("Game Complete");
+                levelCompleteCanvas.enabled = true;
             }
             else
             {

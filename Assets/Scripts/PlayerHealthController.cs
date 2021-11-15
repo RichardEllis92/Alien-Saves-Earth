@@ -35,6 +35,7 @@ public class PlayerHealthController : MonoBehaviour
 
         if(currentHealth <= 0)
         {
+            GameOver.instance.GameOverInfo();
             PlayerController.instance.gameObject.SetActive(false);
         }
 
